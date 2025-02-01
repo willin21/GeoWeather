@@ -1,0 +1,38 @@
+[
+    {
+        "id": 2557386,
+        "name": "Miami",
+        "region": "Florida",
+        "country": "United States of America",
+        "lat": 25.77,
+        "lon": -80.19,
+        "url": "miami-florida-united-states-of-america"
+    },
+    {
+        "id": 2557389,
+        "name": "Miami Lakes",
+        "region": "Florida",
+        "country": "United States of America",
+        "lat": 25.91,
+        "lon": -80.31,
+        "url": "miami-lakes-florida-united-states-of-america"
+    },
+    {
+        "id": 2629134,
+        "name": "Miamisburg",
+        "region": "Ohio",
+        "country": "United States of America",
+        "lat": 39.64,
+        "lon": -84.29,
+        "url": "miamisburg-ohio-united-states-of-america"
+    },
+    {
+        "id": 2557391,
+        "name": "Miami Springs",
+        "region": "Florida",
+        "country": "United States of America",
+        "lat": 25.82,
+        "lon": -80.29,
+        "url": "miami-springs-florida-united-states-of-america"
+    }
+]

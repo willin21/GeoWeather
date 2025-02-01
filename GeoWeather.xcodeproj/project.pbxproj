@@ -46,6 +46,15 @@
 		C47F63802D4BB69D0031DA8E /* HourForecastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F63752D4BB69D0031DA8E /* HourForecastCollectionViewCell.swift */; };
 		C47F63822D4BB8710031DA8E /* DetailForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F63812D4BB8600031DA8E /* DetailForecastViewModel.swift */; };
 		C47F63842D4BB9680031DA8E /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F63832D4BB9640031DA8E /* UIViewController.swift */; };
+		C4844F3F2D4E843B0092EAB9 /* LocationListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4844F3E2D4E84340092EAB9 /* LocationListViewModelTests.swift */; };
+		C4844F412D4E84FB0092EAB9 /* MockFavouritesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4844F402D4E84FA0092EAB9 /* MockFavouritesHelper.swift */; };
+		C4844F442D4E86400092EAB9 /* DetailForecastViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4844F432D4E863D0092EAB9 /* DetailForecastViewModelTests.swift */; };
+		C48A56112D4E6C6300E51A60 /* SearchLocationViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48A56102D4E6C5E00E51A60 /* SearchLocationViewModelTest.swift */; };
+		C48A56132D4E6DC200E51A60 /* WeatherMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48A56122D4E6DBF00E51A60 /* WeatherMocks.swift */; };
+		C48A56152D4E75CD00E51A60 /* forecast-miami.json in Resources */ = {isa = PBXBuildFile; fileRef = C48A56142D4E75BF00E51A60 /* forecast-miami.json */; };
+		C48A56182D4E763B00E51A60 /* search-miami.json in Resources */ = {isa = PBXBuildFile; fileRef = C48A56172D4E763200E51A60 /* search-miami.json */; };
+		C48A561B2D4E7B4D00E51A60 /* MockWeatherRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48A561A2D4E7B4600E51A60 /* MockWeatherRepository.swift */; };
+		C48A561D2D4E7B6700E51A60 /* MockNavigationFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48A561C2D4E7B5900E51A60 /* MockNavigationFrame.swift */; };
 		C49AE6A32D4AB66D00530A1C /* LocationListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49AE6A22D4AB66D00530A1C /* LocationListProtocol.swift */; };
 		C49AE6A52D4AB71D00530A1C /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49AE6A42D4AB71D00530A1C /* City.swift */; };
 		C49AE6A82D4AB7D200530A1C /* NumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49AE6A72D4AB7D200530A1C /* NumberFormatter.swift */; };
@@ -137,6 +146,15 @@
 		C47F63782D4BB69D0031DA8E /* TemperatureCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TemperatureCollectionViewCell.xib; sourceTree = "<group>"; };
 		C47F63812D4BB8600031DA8E /* DetailForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailForecastViewModel.swift; sourceTree = "<group>"; };
 		C47F63832D4BB9640031DA8E /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		C4844F3E2D4E84340092EAB9 /* LocationListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListViewModelTests.swift; sourceTree = "<group>"; };
+		C4844F402D4E84FA0092EAB9 /* MockFavouritesHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFavouritesHelper.swift; sourceTree = "<group>"; };
+		C4844F432D4E863D0092EAB9 /* DetailForecastViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailForecastViewModelTests.swift; sourceTree = "<group>"; };
+		C48A56102D4E6C5E00E51A60 /* SearchLocationViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLocationViewModelTest.swift; sourceTree = "<group>"; };
+		C48A56122D4E6DBF00E51A60 /* WeatherMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMocks.swift; sourceTree = "<group>"; };
+		C48A56142D4E75BF00E51A60 /* forecast-miami.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "forecast-miami.json"; sourceTree = "<group>"; };
+		C48A56172D4E763200E51A60 /* search-miami.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "search-miami.json"; sourceTree = "<group>"; };
+		C48A561A2D4E7B4600E51A60 /* MockWeatherRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWeatherRepository.swift; sourceTree = "<group>"; };
+		C48A561C2D4E7B5900E51A60 /* MockNavigationFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNavigationFrame.swift; sourceTree = "<group>"; };
 		C49AE6A22D4AB66D00530A1C /* LocationListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListProtocol.swift; sourceTree = "<group>"; };
 		C49AE6A42D4AB71D00530A1C /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		C49AE6A72D4AB7D200530A1C /* NumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatter.swift; sourceTree = "<group>"; };
@@ -280,6 +298,7 @@
 			children = (
 				C46E1CE82D498C3400CC3C25 /* Assets.xcassets */,
 				C41816E42D49BF1F004C96C0 /* Animation */,
+				C48A56162D4E75DF00E51A60 /* Mocks */,
 			);
 			path = Resoucres;
 			sourceTree = "<group>";
@@ -345,6 +364,8 @@
 		C46E1CF52D498C3400CC3C25 /* GeoWeatherTests */ = {
 			isa = PBXGroup;
 			children = (
+				C48A56192D4E7B3500E51A60 /* Mocks */,
+				C48A560E2D4E6C1B00E51A60 /* Section */,
 				C46E1CF62D498C3400CC3C25 /* GeoWeatherTests.swift */,
 			);
 			path = GeoWeatherTests;
@@ -357,6 +378,59 @@
 				C46E1D022D498C3400CC3C25 /* GeoWeatherUITestsLaunchTests.swift */,
 			);
 			path = GeoWeatherUITests;
+			sourceTree = "<group>";
+		};
+		C4844F3D2D4E82BC0092EAB9 /* LocationList */ = {
+			isa = PBXGroup;
+			children = (
+				C4844F3E2D4E84340092EAB9 /* LocationListViewModelTests.swift */,
+			);
+			path = LocationList;
+			sourceTree = "<group>";
+		};
+		C4844F422D4E862B0092EAB9 /* DetailForecast */ = {
+			isa = PBXGroup;
+			children = (
+				C4844F432D4E863D0092EAB9 /* DetailForecastViewModelTests.swift */,
+			);
+			path = DetailForecast;
+			sourceTree = "<group>";
+		};
+		C48A560E2D4E6C1B00E51A60 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				C4844F422D4E862B0092EAB9 /* DetailForecast */,
+				C4844F3D2D4E82BC0092EAB9 /* LocationList */,
+				C48A560F2D4E6C5300E51A60 /* SearchLocation */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		C48A560F2D4E6C5300E51A60 /* SearchLocation */ = {
+			isa = PBXGroup;
+			children = (
+				C48A56102D4E6C5E00E51A60 /* SearchLocationViewModelTest.swift */,
+			);
+			path = SearchLocation;
+			sourceTree = "<group>";
+		};
+		C48A56162D4E75DF00E51A60 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				C48A56142D4E75BF00E51A60 /* forecast-miami.json */,
+				C48A56172D4E763200E51A60 /* search-miami.json */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		C48A56192D4E7B3500E51A60 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				C4844F402D4E84FA0092EAB9 /* MockFavouritesHelper.swift */,
+				C48A561C2D4E7B5900E51A60 /* MockNavigationFrame.swift */,
+				C48A561A2D4E7B4600E51A60 /* MockWeatherRepository.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 		C49AE69F2D4A95CE00530A1C /* LocationList */ = {
@@ -401,6 +475,7 @@
 				C416175E2D4E4392000F19F4 /* UIColor.swift */,
 				C41617512D4D9914000F19F4 /* UITableView.swift */,
 				C47F63832D4BB9640031DA8E /* UIViewController.swift */,
+				C48A56122D4E6DBF00E51A60 /* WeatherMocks.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -605,6 +680,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C47F63792D4BB69D0031DA8E /* CityCollectionViewCell.xib in Resources */,
+				C48A56152D4E75CD00E51A60 /* forecast-miami.json in Resources */,
 				C47F637A2D4BB69D0031DA8E /* TemperatureCollectionViewCell.xib in Resources */,
 				C47F637B2D4BB69D0031DA8E /* HourForecastCollectionViewCell.xib in Resources */,
 				C47F637C2D4BB69D0031DA8E /* ActivityIndicatorCollectionViewCell.xib in Resources */,
@@ -612,6 +688,7 @@
 				C46E1CE92D498C3400CC3C25 /* Assets.xcassets in Resources */,
 				C46E1CEC2D498C3400CC3C25 /* Base in Resources */,
 				C41617552D4DA1D9000F19F4 /* LocationHeaderTableViewCell.xib in Resources */,
+				C48A56182D4E763B00E51A60 /* search-miami.json in Resources */,
 				C49AE6C72D4B175100530A1C /* Secrets.plist in Resources */,
 				C41816E62D49BF53004C96C0 /* WeatherAnimation.json in Resources */,
 			);
@@ -752,6 +829,7 @@
 				C47F637D2D4BB69D0031DA8E /* ActivityIndicatorCollectionViewCell.swift in Sources */,
 				C47F637E2D4BB69D0031DA8E /* TemperatureCollectionViewCell.swift in Sources */,
 				C47F637F2D4BB69D0031DA8E /* CityCollectionViewCell.swift in Sources */,
+				C48A56132D4E6DC200E51A60 /* WeatherMocks.swift in Sources */,
 				C47F63802D4BB69D0031DA8E /* HourForecastCollectionViewCell.swift in Sources */,
 				C41816DE2D49A12F004C96C0 /* WeatherInput.swift in Sources */,
 				C41617502D4D8B7B000F19F4 /* Date.swift in Sources */,
@@ -792,6 +870,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C48A56112D4E6C6300E51A60 /* SearchLocationViewModelTest.swift in Sources */,
+				C48A561D2D4E7B6700E51A60 /* MockNavigationFrame.swift in Sources */,
+				C4844F442D4E86400092EAB9 /* DetailForecastViewModelTests.swift in Sources */,
+				C48A561B2D4E7B4D00E51A60 /* MockWeatherRepository.swift in Sources */,
+				C4844F412D4E84FB0092EAB9 /* MockFavouritesHelper.swift in Sources */,
+				C4844F3F2D4E843B0092EAB9 /* LocationListViewModelTests.swift in Sources */,
 				C46E1CF72D498C3400CC3C25 /* GeoWeatherTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

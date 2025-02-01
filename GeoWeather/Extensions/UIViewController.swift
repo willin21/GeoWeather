@@ -43,7 +43,7 @@ extension UIViewController {
         let toastLabel = UILabel(
             frame: CGRect(
                 x: self.view.frame.size.width/2 - 150,
-                y: self.view.frame.size.height-100,
+                y: self.view.frame.size.height-150,
                 width: 300,
                 height: 44
             )

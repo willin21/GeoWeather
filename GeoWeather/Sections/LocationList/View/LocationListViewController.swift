@@ -70,7 +70,7 @@ class LocationListViewController: BaseTableViewController {
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             try? viewModel.deleteCity(at: indexPath.row)
-            self.showToast(message: Constants.Text.forecastAdded)
+            self.showToast(message: Constants.Text.forecastRemoved)
             tableView.deleteRows(at: [indexPath], with: .fade)
         }
     }
