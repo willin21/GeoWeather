@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (5.10.2)
+  - lottie-ios (4.5.1)
+  - MBProgressHUD (1.2.0)
+  - SDWebImage (5.20.0):
+    - SDWebImage/Core (= 5.20.0)
+  - SDWebImage/Core (5.20.0)
+  - SnapKit (5.7.1)
+  - Then (3.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - lottie-ios
+  - MBProgressHUD
+  - SDWebImage
+  - SnapKit
+  - Then
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - lottie-ios
+    - MBProgressHUD
+    - SDWebImage
+    - SnapKit
+    - Then
+
+SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  lottie-ios: 248b380fa1b97d18e792c37d90da7ab2aa0d6562
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SDWebImage: 73c6079366fea25fa4bb9640d5fb58f0893facd8
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
+
+PODFILE CHECKSUM: 38c82aab6180f61ced89bedf6a5176b36e1995de
+
+COCOAPODS: 1.14.3

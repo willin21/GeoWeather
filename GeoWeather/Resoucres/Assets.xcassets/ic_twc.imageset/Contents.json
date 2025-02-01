@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "twc_mask32x32@2x.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
