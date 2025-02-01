@@ -18,7 +18,7 @@ You must clone the project locally, navigate to the project directory, and then 
 ```
 Example:
 1. Open the terminal console, and go to the project location.
-2. Type: git clone [https://github.com/willin21/spoonacularFoodTest](https://github.com/willin21/GeoWeather.git)
+2. Type: git clone [GeoWeather](https://github.com/willin21/GeoWeather.git)
 3. Then type: pod install
 4. Finally you will be able to start the project by open the file GeoWeather.xcworkspace
 ```
