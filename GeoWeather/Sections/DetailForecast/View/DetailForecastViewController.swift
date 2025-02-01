@@ -32,8 +32,6 @@ class DetailForecastViewController: BaseCollectionViewController {
         configureNavigationBar()
         configureToolBar()
         configureBindings()
-        
-        viewModel.requestForecast()
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -114,7 +112,7 @@ class DetailForecastViewController: BaseCollectionViewController {
     
     private func handleError(error: String) {
         presentRetryAlert(withTitle: "Oops", message: error) { [weak self] _ in
-            self?.viewModel.requestForecast()
+            self?.configureBindings()
         }
     }
     
